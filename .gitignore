@@ -1,0 +1,28 @@
+# Logs
+error_log
+*.log
+
+# Temporary files
+tmp/cache_*
+tmp/compile/*
+tmp/aCompile/*
+tmp/upload/*
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+
+# Large archive files
+*.zip
+*.tar.gz
+*.rar
