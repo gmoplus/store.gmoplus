@@ -53,8 +53,13 @@ RUN sed -i '/<Directory \/var\/www\/>/,/<\/Directory>/ s/AllowOverride None/Allo
 # Copy application files
 COPY . /var/www/html/
 
-# Set permissions
-RUN chown -R www-data:www-data /var/www/html \
+# Create required directories for Smarty and set permissions
+RUN mkdir -p /var/www/html/tmp/compile \
+    && mkdir -p /var/www/html/tmp/aCompile \
+    && mkdir -p /var/www/html/tmp/cache \
+    && mkdir -p /var/www/html/tmp/upload \
+    && mkdir -p /var/www/html/files \
+    && chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html \
     && chmod -R 777 /var/www/html/tmp \
     && chmod -R 777 /var/www/html/files
