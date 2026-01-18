@@ -33,11 +33,11 @@ define('RL_DB_DEBUG', false);
 define('RL_MEMORY_DEBUG', false);
 define('RL_AJAX_DEBUG', false);
 
-// mysql credentials
+// mysql credentials - Coolify External Database
 define('RL_DBPORT', '3306');
-define('RL_DBHOST', 'localhost');
-define('RL_DBUSER', 'gmoplus_storeuser');
-define('RL_DBPASS', 'gmoplus_storeuser1234');
+define('RL_DBHOST', 'l8owc48k8kcsgkog4s0swsg0');
+define('RL_DBUSER', 'root');
+define('RL_DBPASS', 'mZPOoJmy6aeweznuV1ag9z19xiau99zaX1VUSMOV7EcCvr7sEgfEI7jczMitJcqg');
 define('RL_DBNAME', 'gmoplus_store');
 define('RL_DBPREFIX', 'fl_');
 
@@ -73,7 +73,7 @@ define('RL_MEMCACHE_PORT', 11211);
 //redis server name, password, host and port
 define('RL_REDIS_USER', '');
 define('RL_REDIS_PASS', '');
-define('RL_REDIS_HOST', '127.0.0.1');
+define('RL_REDIS_HOST', 'redis');
 define('RL_REDIS_PORT', 6379);
 
 /* YOU ARE NOT PERMITTED TO MODIFY THE CODE BELOW */
