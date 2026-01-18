@@ -43,7 +43,7 @@ define('RL_DBPREFIX', 'fl_');
 
 // system paths
 define('RL_DIR', '');
-define('RL_ROOT', '/home/gmoplus/store.gmoplus.com' . RL_DS . RL_DIR);
+define('RL_ROOT', '/var/www/html' . RL_DS . RL_DIR);
 define('RL_INC', RL_ROOT . 'includes' . RL_DS);
 define('RL_CLASSES', RL_INC . 'classes' . RL_DS);
 define('RL_CONTROL', RL_INC . 'controllers' . RL_DS);
